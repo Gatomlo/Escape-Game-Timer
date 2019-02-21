@@ -1,7 +1,5 @@
 //Variables de configuration
 var timer = 1800; /* 60 minutes = 3600 , 30 minutes = 1800, 15 minutes = 900*/
-var initalIndiceOne = 3;
-var initalIndiceTwo = 3;
 var redTime = 300;
 var orangeTime = 900;
 var timerName = 'Début du cours dans:';
@@ -54,28 +52,27 @@ $(document).ready(function(){
 });
 
 $(document).keydown(function(e){
-
-  //Démarage du compteur
-  if(e.keyCode==97){
-    startTimer(actualTime);
-  };
-  //Stopper le compteur
-  if(e.keyCode==98){
-    stopTimer();
+  if(e.keyCode==83){
+    if(isTimerOn){
+      stopTimer();
+    }
+    else{
+      startTimer(actualTime);
+    }
   };
   //Reinitialiser le compteur
-  if(e.keyCode==99){
+  if(e.keyCode==82){
     resetTimer();
   };
   //Sauver le temps de l'équipe une
-  if(e.keyCode==101){
+  if(e.keyCode==97){
     if(displayTeamOne){
       var finalTimeOne = timer-actualTime;
       displayTime(finalTimeOne,'#timeOne')
     };
   };
   //Sauver le temps de l'équipe deux
-  if(e.keyCode==104){
+  if(e.keyCode==98){
     if(displayTeamTwo){
       var finalTimeTwo = timer-actualTime;
       displayTime(finalTimeTwo,'#timeTwo')

@@ -1,0 +1,55 @@
+body{
+  width:100%;
+}
+
+#teams{
+  text-align: center;
+  padding-top: 30%;
+  top:80%;;
+  font-size: 2em;
+}
+
+.teamTitle{
+  font-weight: bold;
+}
+
+#title{
+  padding-top: 2%;
+  font-size: 5em;
+}
+
+.message{
+  width:50%;
+  padding-top: 50px;
+}
+
+.circleCountdown {
+  position: absolute;
+  top: 20%;
+  left: 2px;
+  width: 100%;
+}
+
+#clock {
+  position: absolute;
+  top: 45%;
+  left: 2px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.green{
+  color: green;
+}
+
+.orange{
+  color:orange;
+}
+
+.red{
+  color: red;
+}

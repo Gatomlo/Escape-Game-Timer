@@ -27,7 +27,11 @@ audioFile = nom+extension d'un fichier son à éxécuter à la fin du timer. Le 
 ## Utilisation
 
 lancer le timer: touche 's' du clavier.
+
 stopper le timer : touche 's' du clavier.
+
 réinitialiser le timer : touche 'r' du clavier.
+
 enregistrer le temps de l'équipe 1 : touche '1' du clavier.
+
 enregistrer le temps de l'équipe 2 : touche '2' du clavier.

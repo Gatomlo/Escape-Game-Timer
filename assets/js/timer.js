@@ -1,8 +1,8 @@
 //Variables de configuration
-var timer = 1800; /* 60 minutes = 3600 , 30 minutes = 1800, 15 minutes = 900*/
+var timer = 3600; /* 60 minutes = 3600 , 30 minutes = 1800, 15 minutes = 900*/
 var redTime = 300;
 var orangeTime = 900;
-var timerName = 'Début du cours dans:';
+var timerName = 'Escape Game:';
 var teamOneName ='Equipe 1';
 var teamTwoName ='Equipe 2';
 var displayTeamOne = true;

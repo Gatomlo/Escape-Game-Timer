@@ -22,7 +22,7 @@ displayTeamTwo = true/false pour afficher le résultat de l'équipe 2, true par 
 
 endMessage = message qui s'affiche à la fin du compteur, 'Fin du jeu!' par défaut.
 
-audioFile = nom+extension d'un fichier son à éxécuter à la fin du timer. Le fichier que vous souhaitez utiliser est à déposer dans /assets/sounds. Sonnerie de fin de cours par défaut.
+audioFile = alarm.mp3|bomb.mp3|clock.mp3|police.mp3|school.mp3 , sonnerie de fin de cours par défaut.Vous pouvez également ajouter vos propre sons dans /assets/sounds. Il faut alors mettre en paramètre le nom du fichier+extension.
 
 ## Utilisation
 
